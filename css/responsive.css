@@ -33,7 +33,11 @@
     top: 72px;
   }
   
-  
+  .col-3 p {
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+  }
 }
   
 @media only screen and (max-width: 800px) {
